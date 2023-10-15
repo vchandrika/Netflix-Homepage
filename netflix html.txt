@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <link rel="stylesheet" href="style12.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Sign In</h1>
+        <form>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <center><input type="email" id="email" required></center>
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <center><input type="password" id="password" required></center>
+            </div>
+            <center><button type="submit" class="login-btn">Sign In</button></center>
+        </form>
+        <p class="forgot-password">Forgot your password?</p>
+    </div>
+</body>
+</html>
